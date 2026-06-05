@@ -70,9 +70,9 @@ export function FooterSection() {
             <ul className="space-y-3">
               {[
                 { label: "Volver al inicio", href: "#" },
-                { label: "¿Qué es una SOFOM?", href: "#sofom" },
-                { label: "Modelos de operación", href: "#modelos" },
+                { label: "Constituye una SOFOM", href: "#sofom" },
                 { label: "Cómo es el proceso", href: "#proceso" },
+                { label: "Constituir vs Comprar", href: "#diferencias" },
                 { label: "Preguntas frecuentes", href: "#faq" },
               ].map((link, index) => (
                 <motion.li

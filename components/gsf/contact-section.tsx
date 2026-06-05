@@ -124,7 +124,7 @@ export function ContactSection() {
     return Math.round(((step - 1) / TOTAL_STEPS) * 100);
   }, [step]);
 
-//Vaclidaciones
+//Validaciones
 
   //el paso 1 Ahora requiere los 5 campos para ser válido
   const isStep1Valid = 
@@ -335,9 +335,9 @@ export function ContactSection() {
                 </div>
                 <div className="space-y-3">
                   {[
-                    { value: "Comprar solo una SOFOM", label: "Comprar solo una SOFOM", description: "Solo la estructura legal" },
-                    { value: "Comprar una SOFOM con servicios incluidos", label: "Comprar una SOFOM con servicios incluidos", description: "Incluye cumplimiento, operación y sistema" },
-                    { value: "Comprar una SOFOM con diseño de productos financieros", label: "Comprar una SOFOM con diseño de productos financieros", description: "Solución completa llave en mano" },
+                    { value: "Constituir solo una SOFOM", label: "Constituir una SOFOM desde cero ", description: "Solo la estructura legal" },
+                    { value: "Constituir una SOFOM con servicios incluidos", label: "Constituir una SOFOM con servicios incluidos", description: "Incluye cumplimiento, operación y sistema" },
+                    { value: "Constituir una SOFOM con diseño de productos financieros", label: "Constituir una SOFOM con diseño de productos financieros", description: "Solución completa llave en mano" },
                     { value: "No estoy seguro", label: "No estoy seguro", description: "Necesito asesoría para decidir" },
                   ].map((option) => (
                     <motion.button
@@ -508,11 +508,11 @@ export function ContactSection() {
                   </p>
                 </div>
                 <div className="space-y-3">
-                  {[
-                    { value: "Menor precio", label: "Menor precio", description: "Busco la opción más económica" },
-                    { value: "Tiempo de entrega", label: "Tiempo de entrega", description: "Necesito la SOFOM lo antes posible" },
+                  {[   
+                    { value: "Tiempo de implementación", label: "Tiempo de implementación", description: "Necesito la SOFOM lo antes posible" },
                     { value: "Servicios incluidos", label: "Servicios incluidos", description: "Quiero una solución integral" },
                     { value: "Modelo a la medida", label: "Modelo a la medida", description: "Necesito algo personalizado" },
+                    { value: "Aún lo estoy evaluando ", label: "Aún lo estoy evaluando", description: "Aún lo estoy evaluando" },
                   ].map((option) => (
                     <motion.button
                       key={option.value}
@@ -556,7 +556,7 @@ export function ContactSection() {
               </motion.div>
             )}
 
-            {/* Step 5: Timeline */}
+            {/* Step 5: Estado del proyecto */}
             {step === 5 && (
               <motion.div
                 key="step5"
@@ -568,17 +568,17 @@ export function ContactSection() {
               >
                 <div className="mb-6">
                   <h3 className="font-heading text-xl font-semibold text-foreground mb-1">
-                    Plazo de Operación
+                    Estado del Proyecto
                   </h3>
                   <p className="text-sm text-muted-foreground font-sans">
-                    ¿En qué plazo te gustaría tener tu SOFOM operando?
+                    ¿Ya iniciaste el proceso de constitución de tu SOFOM?
                   </p>
                 </div>
                 <div className="space-y-3">
                   {[
-                    { value: "Lo antes posible", label: "Lo antes posible", description: "Urgente, necesito empezar ya" },
-                    { value: "3-6 meses", label: "3-6 meses", description: "Tengo un proyecto en puerta" },
-                    { value: "6-12 meses", label: "6-12 meses", description: "Estoy planeando a mediano plazo" }, 
+                    { value: "No, apenas estoy evaluando", label: "No, apenas estoy evaluando", description: "Aún no he iniciado el proceso" },
+                    { value: "Sí, pero necesito apoyo para continuarlo", label: "Sí, pero necesito apoyo para continuarlo", description: "Tengo un proyecto en puerta" },
+                    { value: "Prefiero comentarlo en llamada ", label: "Prefiero comentarlo en llamada ", description: "Prefiero hablarlo en una llamada" }, 
                   ].map((option) => (
                     <motion.button
                       key={option.value}

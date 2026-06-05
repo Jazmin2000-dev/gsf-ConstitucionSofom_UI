@@ -21,7 +21,7 @@ export function HeroSection() {
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary/80 backdrop-blur-sm border border-border mb-8"
           >
           {/*   <Shield className="h-4 w-4 text-primary" />  */}
-            <span className="text-sm font-medium text-foreground">+150 SOFOMES vendidas</span>
+            <span className="text-sm font-medium text-foreground">+20 Años de experiencia</span>
           </motion.div>
 
           {/* Headline */}
@@ -35,9 +35,9 @@ export function HeroSection() {
             }}
             className="font-heading text-4xl md:text-5xl lg:text-7xl font-bold text-foreground leading-tight mb-6 text-balance"
           >
-            Compra tu SOFOM{" "}
+            Constituye tu SOFOM{" "}
             <span className="text-primary relative">
-              Lista para Operar
+              Desde cero con enfoque estratégico
               <motion.span
                 className="absolute -bottom-2 left-0 right-0 h-1 bg-primary/30 rounded-full"
                 initial={{ scaleX: 0 }}
@@ -54,7 +54,7 @@ export function HeroSection() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed text-pretty"
           >
-             Contamos con estructuras de SOFOM diseñadas a la medida de tus objetivos y preparadas para iniciar operaciones.
+            Estructuramos tu proyecto desde el primer día. Te acompañamos en cada paso legal, operativo y regulatorio para crear tu propia financiera
           </motion.p>
 
       {/* CTAs */}
@@ -118,7 +118,7 @@ export function HeroSection() {
           </motion.div>
 */}
 
-          {/* Stats */}
+          {/* Stats 
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
@@ -127,7 +127,7 @@ export function HeroSection() {
           >
             {[
               { value: "+20", label: "Años de experiencia" },
-              { value: "+150", label: "SOFOMES vendidas" },
+              { value: "+150", label: "SOFOMES estructuradas" },
               { value: "+300", label: "Clientes activos" },
             ].map((stat, index) => (
               <motion.div
@@ -140,7 +140,7 @@ export function HeroSection() {
                 <p className="text-sm text-muted-foreground mt-1">{stat.label}</p>
               </motion.div>
             ))}
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
 

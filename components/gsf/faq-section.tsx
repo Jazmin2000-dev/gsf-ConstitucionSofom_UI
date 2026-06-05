@@ -16,24 +16,24 @@ export function FaqSection() {
 
   const faqs = [
     {
-      question: "¿Cuánto tiempo toma el proceso de adquisición?",
-      answer: "El tiempo promedio es desde 4 semanas dependiendo del modelo seleccionado. Las estructuras básicas pueden concluirse más rápido, mientras que las soluciones integrales con tecnología requieren más tiempo de implementación y configuración.",
+      question: "¿Cuánto cuesta constituir una SOFOM?",
+      answer: "No existe un costo único, ya que depende del nivel de estructura y soluciones tecnológicas que tu proyecto requiera. Ofrecemos diferentes niveles de acompañamiento, desde la constitución básica hasta estructuras integrales listas para operar. En una sesión de diagnóstico inicial, evaluamos tu modelo de negocio para entregarte una propuesta económica a la medida.",
     },
     {
-      question: "¿Es mejor comprar una SOFOM existente o crear una nueva?",
-      answer: "Adquirir una SOFOM existente ofrece ventajas significativas: elimina el tiempo de constitución y reduce los trámites ante autoridades; crear una nueva puede tomar más tiempo. Te asesoramos sobre la mejor opción según tu situación.",
+      question: "¿Cuánto tiempo puede tomar el proceso? ",
+      answer: "El proceso de constitución y obtención de registros tiene plazos definidos por las autoridades, pero nuestra metodología permite optimizar cada etapa. Dependiendo de si se trata de una estructura básica o un modelo con alta demanda de servicios y cumplimiento, el acompañamiento integral asegura que cumplas los tiempos legales sin contratiempos.",
     },
     {
-      question: "¿Qué requisitos necesito para operar una SOFOM?",
-      answer: "Los requisitos principales incluyen: capital mínimo según el tipo de operaciones, cumplimiento en materia de PLD/FT ante CNBV y registros ante CONDUSEF. Te guiamos en cada requisito y te ayudamos a cumplirlos.",
+      question: "¿Qué requisitos se necesitan?",
+      answer: "Los requisitos fundamentales abarcan desde la conformación legal de la sociedad hasta el cumplimiento estricto en materia de Prevención de Lavado de Dinero (PLD) y los registros ante CNBV y CONDUSEF. En GSF nos encargamos de guiarte paso a paso en la recopilación y preparación de toda la documentación necesaria para que tu expediente sea sólido.",
     },
     {
-      question: "¿Qué tipo de operaciones puede realizar una SOFOM?",
-      answer: "Una SOFOM puede realizar operaciones de crédito en cualquiera de sus formas, arrendamiento y factoraje financiero. Esto incluye productos como: préstamos personales, crédito automotriz, crédito empresarial, arrendamiento de equipos, y descuento de facturas, entre otros.",
+      question: "¿Se puede operar una SOFOM inmediatamente?",
+      answer: "La constitución es el primer paso, pero para iniciar operaciones de forma segura, es indispensable contar con la estructura operativa, el manual de cumplimiento PLD y los registros regulatorios activos. Nuestro objetivo es llevar tu proyecto desde la constitución hasta la puesta en marcha técnica y operativa, asegurando que cada producto financiero que lances al mercado opere bajo el marco legal vigente.",
     },
     {
-      question: "¿Ofrecen soporte después de la adquisición?",
-      answer: "Sí, todos nuestros modelos incluyen un periodo de soporte post-venta. Además, ofrecemos planes de acompañamiento continuo que incluyen asesoría contable, fiscal, regulatoria y operativa, así como soporte tecnológico.",
+      question: "¿Qué servicios adicionales se requieren?",
+      answer: "Más allá de la constitución, el ecosistema para operar una financiera requiere de contabilidad especializada, sistemas de control de cartera, auditorías PLD constantes y asesoría jurídica continua. GSF te acompaña como aliado estratégico en todo este proceso, integrando los servicios necesarios para que tu enfoque principal sea el crecimiento de tu cartera y no la gestión administrativa.",
     },
   ];
 

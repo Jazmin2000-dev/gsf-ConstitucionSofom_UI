@@ -22,8 +22,8 @@ export function Navigation() {
   const navItems = [
     { label: "Inicio", href: "#" },
     { label: "SOFOM", href: "#sofom" },
-    { label: "Modelos", href: "#modelos" },
     { label: "Proceso", href: "#proceso" },
+    { label: "Diferencias", href: "#diferencias" },
     { label: "FAQ", href: "#faq" },
   ];
 

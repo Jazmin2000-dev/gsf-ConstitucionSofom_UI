@@ -15,8 +15,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'GSF - Venta de SOFOM',
-  description: 'Expertos especializados en estructuración de SOFOM. Te ayudamos a adquirir una SOFOM ENR y comenzar operaciones en México.',
+  title: 'GSF - Constitución de SOFOM',
+  description: 'Expertos especializados en estructuración de SOFOM. Te ayudamos a con la constitucion de una SOFOM ENR y comenzar operaciones en México.',
   generator: 'v0.app',
   icons: {
     icon: "/icon.png",
