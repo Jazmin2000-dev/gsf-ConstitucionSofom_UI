@@ -116,7 +116,9 @@ export function SofomSection() {
             El Proceso de Constituir una SOFOM
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Constituir una SOFOM implica más que crear una empresa. Requiere cumplir diversos pasos regulatorios y administrativos para operar legalmente.
+            Constituir una SOFOM implica más que crear una empresa.
+            <br /> 
+            Requiere cumplir diversos pasos regulatorios y administrativos para operar legalmente.
           </p>
         </motion.div>
 

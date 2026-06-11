@@ -65,12 +65,13 @@ export function ProcessSection() {
       subtitle: "Desde cero",
       description: "Crea una SOFOM nueva con la estructura exacta que necesitas, configurada desde el inicio según tus objetivos.",
       benefits: [
-        "Control total sobre la estructura",
+        "Diseño operativo 100% personalizado",
         "Sin pasivos previos",
-        "Personalización completa",
+        "Involucramiento en todo el proceso",
         "Ideal para proyectos nuevos",
+        "Esquema de pagos por etapas",
       ],
-      ideal: "Ideal cuando tienes tiempo para el proceso completo y quieres una estructura a medida.",
+      ideal: "Ideal cuando tienes tiempo para el proceso completo.",
     },
     {
       icon: BuyIcon,
@@ -83,7 +84,7 @@ export function ProcessSection() {
         "Registros vigentes",
         "Historial establecido",
       ],
-      ideal: "Ideal cuando necesitas iniciar operaciones rápidamente o prefieres una estructura probada.",
+      ideal: "Ideal cuando necesitas iniciar operaciones rápidamente.",
       featured: true,
     },
   ];
@@ -98,13 +99,13 @@ export function ProcessSection() {
             duration: 0.8,
             ease: [0.22, 1, 0.36, 1]
           }}
-          className="text-center max-w-3xl mx-auto mb-16"
+          className="text-center max-w-4xl mx-auto mb-16"
         >
           <h2 className="font-heading text-3xl md:text-5xl font-bold text-foreground mb-4 text-balance">
             Constituir vs. Comprar una SOFOM
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            En algunos casos puede convenir constituir una SOFOM desde cero, mientras que en otros puede ser más eficiente adquirir una estructura existente. GSF te ofrece ambas alternativas.
+            GSF te ofrece ambas alternativas.
           </p>
         </motion.div>
 
