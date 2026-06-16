@@ -113,7 +113,7 @@ export function SofomSection() {
           className="text-center max-w-3xl mx-auto mb-16"
         >
           <h2 className="font-heading text-3xl md:text-5xl font-bold text-foreground mb-4 text-balance">
-            El Proceso de Constituir una SOFOM
+            El proceso de constituir una SOFOM
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
             Constituir una SOFOM implica más que crear una empresa.

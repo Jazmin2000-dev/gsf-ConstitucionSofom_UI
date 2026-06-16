@@ -78,31 +78,31 @@ export function ModelsSection() {
     {
       icon: DiagnosisIcon,
       number: "01",
-      title: "Diagnóstico del Proyecto",
+      title: "Diagnóstico del proyecto",
       description: "Evaluamos tu situación actual, objetivos y necesidades para definir el mejor camino hacia la constitución.",
     },
     {
       icon: StructureIcon,
       number: "02",
-      title: "Definición de Estructura",
+      title: "Definición de estructura",
       description: "Determinamos la estructura societaria, capital y configuración óptima para tu proyecto.",
     },
     {
       icon: AccompanimentIcon,
       number: "03",
-      title: "Acompañamiento en Constitución",
+      title: "Acompañamiento en constitución",
       description: "Te guiamos paso a paso durante todo el proceso de constitución legal y registros.",
     },
     {
       icon: PreparationIcon,
       number: "04",
-      title: "Preparación para Operación",
+      title: "Preparación para operación",
       description: "Implementamos políticas, manuales y sistemas necesarios para iniciar operaciones.",
     },
     {
       icon: ServicesIcon,
       number: "05",
-      title: "Servicios Adicionales",
+      title: "Servicios adicionales",
       description: "Ofrecemos soporte continuo, capacitación y servicios complementarios post-constitución.",
     },
   ];
@@ -122,7 +122,7 @@ export function ModelsSection() {
           className="text-center max-w-3xl mx-auto mb-16"
         >
           <h2 className="font-heading text-3xl md:text-5xl font-bold text-foreground mb-4 text-balance">
-            Cómo GSF Acompaña el Proceso
+            ¿Cómo GSF te acompaña en el proceso?
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
             Te guiamos en cada etapa del proceso de constitución con un enfoque estructurado y profesional.

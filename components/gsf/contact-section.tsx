@@ -99,7 +99,7 @@ export function ContactSection() {
     e.preventDefault();
     try {
       // Enviamos los datos a tu Webhook
-      const response = await fetch("https://hook.us2.make.com/r4oakoyhus8xl9nbp6o9bo57c3psfjwc", {
+      const response = await fetch("https://hook.us2.make.com/ptor1i93pvu2cjyllrqx7e3icwjsilgy", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -411,7 +411,7 @@ export function ContactSection() {
             )}
 
 
-            {/* NUEVO Paso 3: Selección de Productos Financieros */}
+            {/* NUEVO Paso 3: Selección de Productos Financieros 
             {step === 3 && (
               <motion.div
                 key="step3"
@@ -487,7 +487,7 @@ export function ContactSection() {
                 </div>
               </motion.div>
             )}
-
+*/}
 
             {/* Step 4: Priority */}
             {step === 4 && (

@@ -102,10 +102,10 @@ export function ProcessSection() {
           className="text-center max-w-4xl mx-auto mb-16"
         >
           <h2 className="font-heading text-3xl md:text-5xl font-bold text-foreground mb-4 text-balance">
-            Constituir vs. Comprar una SOFOM
+            Constituir vs Comprar una SOFOM
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            GSF te ofrece ambas alternativas.
+            GSF te ofrece ambas alternativas
           </p>
         </motion.div>
 
@@ -181,7 +181,7 @@ export function ProcessSection() {
                   className="w-full bg-primary hover:bg-primary/90 group"
                   asChild
                 >
-                  <Link href="#modelos">
+                  <Link href="https://venta-sofom.grupogsf.com.mx/#contacto" target="_blank" rel="noopener noreferrer">
                     Ver Opciones de Compra
                     <ArrowIcon className="h-4 w-4 ml-2 group-hover:translate-x-1 transition-transform" />
                   </Link>
